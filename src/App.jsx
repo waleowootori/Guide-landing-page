@@ -13,6 +13,7 @@ import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import CheckoutModal from "./components/CheckoutModal";
 import PrivacyPolicyModal from "./components/PrivacyPolicyModal";
+import RecentPurchases from "./components/RecentPurchases";
 
 function App() {
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
@@ -50,6 +51,7 @@ function App() {
         isOpen={isPrivacyOpen} 
         onClose={() => setIsPrivacyOpen(false)} 
       />
+      <RecentPurchases />
     </div>
   );
 }
