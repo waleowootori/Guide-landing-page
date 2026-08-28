@@ -62,8 +62,8 @@ export default function RecentPurchases() {
           setIsVisible(false);
         }, 5000);
 
-        // Schedule next popup (15 seconds wait + 5 seconds display = 20s cycle)
-        scheduleNext(20000);
+        // Schedule next popup (35 seconds wait + 5 seconds display = 40s cycle)
+        scheduleNext(40000);
       }, delay);
     };
 
