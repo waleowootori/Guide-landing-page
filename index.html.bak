@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30-Day Guide to Secure a Remote Job | By Christiana</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cabinet+Grotesk:wght@700;800;900&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: {
+                            900: '#07241A',
+                            800: '#0B382A',
+                            700: '#124837',
+                            600: '#1B5E48'
+                        },
+                        amberGold: {
+                            50: '#FDF9F0',
+                            100: '#FBF0DA',
+                            400: '#EAB308',
+                            500: '#CA8A04',
+                            600: '#B45309',
+                            700: '#854D0E'
+                        },
+                        sand: '#FAF8F5'
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Cabinet Grotesk"', '"Plus Jakarta Sans"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #B45309 0%, #D97706 50%, #CA8A04 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .book-shadow {
+            box-shadow: -18px 24px 45px -10px rgba(7, 36, 26, 0.28), 0 10px 20px -5px rgba(0,0,0,0.1);
+        }
+        .glow-effect {
+            box-shadow: 0 0 50px -10px rgba(180, 83, 9, 0.25);
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-sand text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
+
+    <!-- TOP NOTIFICATION / SUBTLE COUNTDOWN BAR -->
+    <aside aria-label="Limited Offer" class="bg-forest-900 text-amberGold-100 py-2.5 px-4 sticky top-0 z-50 border-b border-forest-700/50 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between text-xs sm:text-sm font-medium gap-2">
+            <div class="flex items-center gap-2">
+                <span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 animate-pulse">
+                    SPECIAL LAUNCH COHORT
+                </span>
+                <span>Get Instant Access + All 3 Bonuses at <strong>70% OFF</strong></span>
+            </div>
+            <div class="flex items-center gap-2 font-mono text-amber-300">
+                <i data-lucide="clock" class="w-4 h-4 text-amber-400"></i>
+                <span class="font-bold">Price rises in:</span>
+                <span id="countdown" class="bg-forest-800 px-2 py-0.5 rounded border border-forest-700 font-semibold tracking-wider">04h : 28m : 42s</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- NAVIGATION -->
+    <header>
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-5 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-lg bg-forest-900 flex items-center justify-center text-amber-400 font-bold font-display text-lg shadow-sm">
+                R
+            </div>
+            <a href="#" class="font-display font-extrabold text-lg sm:text-xl tracking-tight text-forest-900">
+                REMOTE CAREER <span class="text-amber-600">SYSTEM</span>
+            </a>
+        </div>
+        
+        <div class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+            <a href="#critique" class="hover:text-forest-900 transition-colors">Breakdown</a>
+            <a href="#story" class="hover:text-forest-900 transition-colors">Christiana's Story</a>
+            <a href="#curriculum" class="hover:text-forest-900 transition-colors">What's Inside</a>
+            <a href="#proof" class="hover:text-forest-900 transition-colors">Success Stories</a>
+            <a href="#faq" class="hover:text-forest-900 transition-colors">FAQ</a>
+        </div>
+
+        <a href="#pricing" class="bg-forest-900 hover:bg-forest-800 text-amberGold-50 font-bold px-5 py-2.5 rounded-full text-xs sm:text-sm shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+            Get The Guide
+        </a>
+    </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="pt-8 sm:pt-14 pb-16 sm:pb-24 overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left Column: Copy -->
+                <div class="lg:col-span-7 space-y-6 text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-50 border border-amber-200/80 text-amber-800 text-xs font-bold uppercase tracking-wider">
+                        <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-600"></i>
+                        The Ultimate Remote Career Framework
+                    </div>
+
+                    <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.08]">
+                        STOP APPLYING BLINDLY. <br/>
+                        <span class="gold-gradient-text">START SECURING REAL OFFERS.</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 font-normal leading-relaxed max-w-xl">
+                        You don't need another generic list of remote job boards. You need an exact battle-tested system to beat ATS filters, pitch international founders directly, and get paid in USD/GBP — even with a Nigerian or African passport.
+                    </p>
+
+                    <!-- CTA Block -->
+                    <div class="pt-2 space-y-4">
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                            <a href="#pricing" class="inline-flex justify-center items-center gap-3 bg-amber-500 hover:bg-amber-600 active:scale-95 text-slate-950 font-extrabold text-base px-8 py-4 rounded-xl shadow-xl shadow-amber-500/20 transition-all">
+                                <span>Get the Guide &amp; Toolkits for ₦9,999</span>
+                                <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                            </a>
+                            <div class="flex items-center gap-2 text-xs font-medium text-slate-500 justify-center sm:justify-start">
+                                <i data-lucide="zap" class="w-4 h-4 text-amber-600"></i>
+                                <span>Instant PDF &amp; Notion Access</span>
+                            </div>
+                        </div>
+
+                        <!-- Micro Trust signals -->
+                        <div class="pt-4 flex items-center gap-4 text-xs text-slate-500">
+                            <div class="flex -space-x-2">
+                                <img class="inline-block h-7 w-7 rounded-full ring-2 ring-white object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Student">
+                                <img class="inline-block h-7 w-7 rounded-full ring-2 ring-white object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Student">
+                                <img class="inline-block h-7 w-7 rounded-full ring-2 ring-white object-cover" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=100&q=80" alt="Student">
+                                <div class="w-7 h-7 rounded-full bg-forest-900 text-amber-300 font-bold text-[10px] flex items-center justify-center ring-2 ring-white">+480</div>
+                            </div>
+                            <span>Joined by <strong>480+ Africans</strong> landing US/EU remote gigs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Product Presentation (Book Mockup) -->
+                <div class="lg:col-span-5 flex justify-center relative">
+                    <div class="relative w-full max-w-sm">
+                        <!-- Background Glow Accent -->
+                        <div class="absolute -inset-4 bg-gradient-to-r from-amber-300/30 to-forest-600/20 rounded-3xl blur-2xl -z-10"></div>
+                        
+                        <!-- Main 3D Styled Book Card -->
+                        <div class="bg-[#FAF7F0] border border-[#E8DFC8] rounded-2xl p-6 sm:p-8 book-shadow transform hover:-rotate-1 transition-transform duration-500">
+                            <div class="border border-dashed border-[#D4C3A3] p-5 rounded-xl text-center space-y-4">
+                                <div class="text-[10px] tracking-[0.25em] font-extrabold uppercase text-slate-400">
+                                    REMOTE CAREER SYSTEM
+                                </div>
+                                
+                                <div class="space-y-1">
+                                    <span class="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-forest-900 text-amber-300 mb-1">EDITION 2025</span>
+                                    <h3 class="font-display font-black text-2xl text-slate-900 leading-tight">
+                                        30-DAY GUIDE<br/>
+                                        <span class="text-amber-700">TO SECURE A REMOTE JOB</span>
+                                    </h3>
+                                    <p class="text-[11px] text-slate-500 font-medium italic">Prepare, apply, interview, and get hired in 30 days</p>
+                                </div>
+
+                                <!-- Center Visual Art -->
+                                <div class="py-4 flex justify-center">
+                                    <div class="w-36 h-28 bg-forest-800 rounded-lg p-3 relative flex items-center justify-center border-2 border-amber-600/40 shadow-inner">
+                                        <div class="w-28 h-20 bg-forest-900 rounded border border-emerald-500/30 flex flex-col items-center justify-center text-center p-2">
+                                            <i data-lucide="globe" class="w-6 h-6 text-amber-400 animate-spin" style="animation-duration: 12s;"></i>
+                                            <span class="text-[9px] font-bold text-white mt-1">GLOBAL OFFERS</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pt-2 border-t border-[#E8DFC8]/60 flex items-center justify-between text-[11px] text-slate-500 font-semibold">
+                                    <span>By Christiana</span>
+                                    <span class="text-emerald-700 flex items-center gap-1 font-bold">
+                                        <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i> Verified Links Inside
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge -->
+                        <div class="absolute -bottom-4 -left-4 bg-white border border-slate-200 rounded-xl px-4 py-2.5 shadow-lg flex items-center gap-3">
+                            <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                                <i data-lucide="dollar-sign" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <div class="text-[11px] font-bold text-slate-800">Earn in FX Currency</div>
+                                <div class="text-[10px] text-slate-500">$1,500 – $4,500/month avg.</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: 5-POINT BRUTAL CRITIQUE & REWRITE VALUE (REQUESTED) -->
+    <section id="critique" class="py-16 bg-white border-y border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-amber-600 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">Audit &amp; Product Breakdown</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                    Brutally Honest 5-Point Critique of the Original Pitch &amp; Why This New Edition is 10x Better
+                </h2>
+                <p class="text-slate-600 text-sm mt-3">
+                    Most remote job guides fail buyers because they sell hopeful theory. Here is why the old model fails and how our redesigned product guarantees real traction.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Critique Card 1 -->
+                <div class="bg-sand p-6 rounded-2xl border border-slate-200 hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-8 h-8 rounded-lg bg-red-100 text-red-700 flex items-center justify-center text-xs font-bold mb-3">01</div>
+                        <h3 class="text-base font-bold text-slate-900 mb-2">Flaw: Generic "LinkedIn Tips" Without Location Nuance</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            <strong>Old way:</strong> Telling Africans to just "optimize LinkedIn" without solving geo-restrictions, international tax compliance (W-8BEN), and timezone alignment.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-xs text-emerald-800 font-semibold bg-emerald-50/70 p-2.5 rounded-lg">
+                        <strong>10x Upgrade:</strong> Direct frameworks to position yourself as an offshore expert, overcome African IP filtering, and invoice US/UK firms legally.
+                    </div>
+                </div>
+
+                <!-- Critique Card 2 -->
+                <div class="bg-sand p-6 rounded-2xl border border-slate-200 hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-8 h-8 rounded-lg bg-red-100 text-red-700 flex items-center justify-center text-xs font-bold mb-3">02</div>
+                        <h3 class="text-base font-bold text-slate-900 mb-2">Flaw: Outdated Dead Job Links &amp; Scams</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            <strong>Old way:</strong> Copy-pasted lists of dead aggregator links where 10,000 bots apply within 30 minutes, drowning human candidates.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-xs text-emerald-800 font-semibold bg-emerald-50/70 p-2.5 rounded-lg">
+                        <strong>10x Upgrade:</strong> Curated <em>verifiable, live hiring channels</em> and exact search strings to spot unadvertised stealth roles before public posting.
+                    </div>
+                </div>
+
+                <!-- Critique Card 3 -->
+                <div class="bg-sand p-6 rounded-2xl border border-slate-200 hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-8 h-8 rounded-lg bg-red-100 text-red-700 flex items-center justify-center text-xs font-bold mb-3">03</div>
+                        <h3 class="text-base font-bold text-slate-900 mb-2">Flaw: No Actionable Day-by-Day Cadence</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            <strong>Old way:</strong> 80 pages of continuous reading with zero daily micro-milestones, causing buyer overwhelm and zero implementation.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-xs text-emerald-800 font-semibold bg-emerald-50/70 p-2.5 rounded-lg">
+                        <strong>10x Upgrade:</strong> A strict 30-Day Sprint Calendar with fill-in Notion checklists that dictate exactly what to do from 9 AM to 11 AM daily.
+                    </div>
+                </div>
+
+                <!-- Critique Card 4 -->
+                <div class="bg-sand p-6 rounded-2xl border border-slate-200 hover:border-amber-400 transition-all flex flex-col justify-between">
+                    <div>
+                        <div class="w-8 h-8 rounded-lg bg-red-100 text-red-700 flex items-center justify-center text-xs font-bold mb-3">04</div>
+                        <h3 class="text-base font-bold text-slate-900 mb-2">Flaw: Weak Scripting for Direct Outreach</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            <strong>Old way:</strong> Cliche "Dear Hiring Manager, kindly review my CV" templates that get flagged as spam in founder inboxes.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-xs text-emerald-800 font-semibold bg-emerald-50/70 p-2.5 rounded-lg">
+                        <strong>10x Upgrade:</strong> Value-first Loom audit scripts and custom DM templates with a verified 34% response rate from Seed/Series-A CEOs.
+                    </div>
+                </div>
+
+                <!-- Critique Card 5 -->
+                <div class="bg-sand p-6 rounded-2xl border border-slate-200 hover:border-amber-400 transition-all flex flex-col justify-between md:col-span-2 lg:col-span-2">
+                    <div>
+                        <div class="w-8 h-8 rounded-lg bg-red-100 text-red-700 flex items-center justify-center text-xs font-bold mb-3">05</div>
+                        <h3 class="text-base font-bold text-slate-900 mb-2">Flaw: Weak Value Perception on the Landing Page</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            <strong>Old way:</strong> The previous landing page looked like a basic student assignment with cold green boxes, generic copy, and zero emotional founder narrative.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-slate-200 text-xs text-emerald-800 font-semibold bg-emerald-50/70 p-2.5 rounded-lg">
+                        <strong>10x Upgrade:</strong> An authoritative, high-converting checkout ecosystem, emotional storytelling by Christiana, and high-utility bundled workbooks.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAIN POINT SECTION (FROM SCREENSHOT REFERENCE) -->
+    <section class="py-20 bg-forest-900 text-white relative overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+            <div class="text-center max-w-xl mx-auto mb-14">
+                <h2 class="font-display text-3xl sm:text-4xl font-extrabold tracking-tight text-amberGold-50">
+                    Does this sound painfully familiar?
+                </h2>
+                <p class="text-emerald-200/80 text-sm mt-3">
+                    If you have been applying for months without a single interview invite, you are not untalented — your method is broken.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-forest-800/80 border border-forest-700 p-8 rounded-2xl hover:bg-forest-700/60 transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400 mb-6">
+                        <i data-lucide="x-circle" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">You Apply... Then Crickets</h3>
+                    <p class="text-emerald-100/70 text-sm leading-relaxed">
+                        Sending hundreds of CVs into the online void with zero feedback, wondering if a human even opened your attachment.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-forest-800/80 border border-forest-700 p-8 rounded-2xl hover:bg-forest-700/60 transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-6">
+                        <i data-lucide="hourglass" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Ghosted After Round 1</h3>
+                    <p class="text-emerald-100/70 text-sm leading-relaxed">
+                        Waiting weeks for an email that never comes, making you question your competence and lowering your salary expectations.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-forest-800/80 border border-forest-700 p-8 rounded-2xl hover:bg-forest-700/60 transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 mb-6">
+                        <i data-lucide="help-circle" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">No Idea What's Broken</h3>
+                    <p class="text-emerald-100/70 text-sm leading-relaxed">
+                        You have the design, writing, coding, or virtual assistant skills, but your international positioning is fundamentally sabotaging you.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: CHRISTIANA'S STORY (EMOTIONAL & RELATABLE CONNECTION) -->
+    <section id="story" class="py-20 bg-[#F5EFE6] border-b border-[#E8DFC8]">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="bg-white rounded-3xl p-8 sm:p-12 border border-[#E2D6C0] shadow-xl relative">
+                
+                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6 pb-8 border-b border-slate-100">
+                    <div class="relative">
+                        <img class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-4 border-amber-400 shadow-md" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80" alt="Christiana">
+                        <span class="absolute bottom-0 right-0 bg-emerald-500 w-5 h-5 rounded-full border-2 border-white"></span>
+                    </div>
+                    <div>
+                        <span class="text-xs font-extrabold uppercase tracking-wider text-amber-700 bg-amber-100/70 px-2.5 py-1 rounded-md">Founder Story</span>
+                        <h2 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1.5">
+                            "I Sent Over 310 Job Applications in Lagos and Got Rejected by Every Single One..."
+                        </h2>
+                        <p class="text-xs text-slate-500 mt-1 font-semibold">By Christiana • Remote Talent Strategist</p>
+                    </div>
+                </div>
+
+                <div class="prose prose-slate max-w-none text-slate-700 text-sm sm:text-base leading-relaxed space-y-4 pt-6">
+                    <p>
+                        In mid-2022, I was stuck. Fuel prices were surging, inflation was eating every kobo of my local salary before it even hit my account, and I was spending 4 hours every day in brutal Lagos traffic just to commute to an office that drained my soul.
+                    </p>
+                    <p>
+                        I knew remote work was the answer. I saw people on Twitter claiming they earned in Dollars and Euros from their bedrooms. <strong>So I did what everyone does:</strong> I created an account on Upwork, scrolled LinkedIn for 6 hours a day, and spammed my CV to over 300 job ads.
+                    </p>
+                    <div class="bg-amber-50/80 border-l-4 border-amber-500 p-4 rounded-r-xl italic font-medium text-amber-900">
+                        "Result? 300 automated rejection emails or pure silence. I felt completely invisible. I thought international companies simply didn't want to hire Nigerians."
+                    </div>
+                    <p>
+                        Then I had a breakthrough realization: <em>Hiring managers in the US and Europe don't reject Africans because of where we live; they reject us because our applications look untrusted, generic, and unoptimized for their filtering software (ATS).</em>
+                    </p>
+                    <p>
+                        I stopped spamming CVs. I completely re-engineered my profile, created value-first video pitches, optimized for stealth job boards, and developed a systematic 30-day outreach routine. Within 28 days, I booked 4 high-level interviews and landed a <strong>$2,800/month remote contract</strong> with a UK tech startup.
+                    </p>
+                    <p>
+                        That single shift changed my family's financial reality forever. It eliminated commute stress, sheltered me from local currency devaluation, and gave me complete time freedom.
+                    </p>
+                    <p class="font-semibold text-slate-900">
+                        I distilled every single template, cold DM script, interview prep question, and <u>verifiable direct link</u> into this 30-Day Guide so that you don't waste months making the painful mistakes I made.
+                    </p>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-slate-100 flex flex-wrap items-center justify-between gap-4">
+                    <div class="flex items-center gap-3">
+                        <i data-lucide="shield-check" class="w-6 h-6 text-emerald-600"></i>
+                        <span class="text-xs font-bold text-slate-700">100% Practical • Includes Real Application Links</span>
+                    </div>
+                    <a href="#pricing" class="text-xs font-bold text-amber-700 hover:text-amber-800 underline underline-offset-4 flex items-center gap-1">
+                        Get the exact framework Christiana used <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT'S INSIDE: 4 CORE PILLARS (BASED ON IMAGE REFERENCE) -->
+    <section id="curriculum" class="py-20 max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <span class="text-xs font-bold uppercase tracking-widest text-amber-600 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">The Core Framework</span>
+            <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                The 30-Day Blueprint to Your Remote Career
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+                This isn't another generic advice ebook. It's a structured, day-by-day system designed to overhaul your professional presentation, streamline your application process, and get you in front of global decision-makers.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Card 1 -->
+            <div class="bg-white p-7 rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
+                <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700 group-hover:bg-amber-100 group-hover:text-amber-800 transition-colors mb-5">
+                    <i data-lucide="file-text" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-900 mb-2">ATS CV Optimization</h3>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    Beat the robots. Learn how to format and structure your CV so it actually reaches human eyes and scores 90%+ on candidate scans.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-7 rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
+                <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700 group-hover:bg-amber-100 group-hover:text-amber-800 transition-colors mb-5">
+                    <i data-lucide="linkedin" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-900 mb-2">LinkedIn Mastery</h3>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    Turn your profile into a lead generator. Attract international recruiters passively while you sleep using optimized search triggers.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-7 rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
+                <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700 group-hover:bg-amber-100 group-hover:text-amber-800 transition-colors mb-5">
+                    <i data-lucide="send" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-900 mb-2">Strategic Networking</h3>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    Skip the 500-person application line. Learn how to reach out to founders and decision-makers directly and effectively.
+                </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white p-7 rounded-2xl border border-slate-200/90 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group">
+                <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700 group-hover:bg-amber-100 group-hover:text-amber-800 transition-colors mb-5">
+                    <i data-lucide="shield-alert" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-bold text-lg text-slate-900 mb-2">Scam &amp; Trap Detection</h3>
+                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    Protect yourself. Identify fake job listings, predatory remote work scams, and fake check schemes instantly before wasting time.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BONUSES SECTION (MATCHING SCREENSHOT WITH YELLOW WORKBOOK) -->
+    <section class="py-20 bg-amber-50/60 border-y border-amber-200/60">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left: Golden Workbook Visual Preview -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="w-full max-w-xs bg-[#F2C94C] p-6 rounded-2xl book-shadow text-slate-900 border-2 border-amber-500/40 transform hover:scale-105 transition-transform duration-300">
+                        <div class="border border-slate-900/20 p-5 rounded-xl text-center space-y-4">
+                            <div class="text-[9px] tracking-widest uppercase font-bold text-slate-800">CHRISTIANA'S TOOLKIT</div>
+                            <h3 class="font-display font-black text-xl leading-snug">
+                                INTERVIEW<br/>
+                                PREPARATION<br/>
+                                <span class="bg-slate-900 text-amber-300 px-2 py-0.5 rounded text-sm inline-block mt-1">WORKBOOK</span>
+                            </h3>
+                            <p class="text-[10px] font-medium text-slate-800">Prepare, practice, and land 6-figure remote offers</p>
+                            
+                            <div class="py-4 bg-amber-300/40 rounded-lg flex items-center justify-center">
+                                <i data-lucide="clipboard-check" class="w-12 h-12 text-slate-900"></i>
+                            </div>
+
+                            <div class="text-[10px] font-bold text-slate-900 bg-white/70 py-1 rounded">
+                                INCLUDED FREE TODAY
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: High Value Bonuses Copy -->
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="inline-block px-3 py-1 rounded-md bg-amber-200 text-amber-900 font-extrabold text-xs tracking-wider uppercase">
+                        EXCLUSIVE BONUSES (VALUE: ₦45,000)
+                    </span>
+
+                    <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
+                        But Wait, You're Not Just Getting The Guide...
+                    </h2>
+
+                    <p class="text-slate-600 text-sm sm:text-base">
+                        To guarantee you get immediate results, I have included the exact proprietary workbooks, trackers, and action plans I use with my private consulting clients.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <!-- Bonus 1 -->
+                        <div class="bg-white p-4 sm:p-5 rounded-xl border border-amber-200/80 shadow-sm flex items-start gap-4">
+                            <div class="w-7 h-7 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm sm:text-base font-bold text-slate-900">
+                                    The STAR Interview Preparation Workbook <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded ml-2">FREE BONUS (Worth ₦15,000)</span>
+                                </h3>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                                    Master the behavioral questions foreign interviewers ask. Includes verbatim sample answers for non-native English speakers.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Bonus 2 -->
+                        <div class="bg-white p-4 sm:p-5 rounded-xl border border-amber-200/80 shadow-sm flex items-start gap-4">
+                            <div class="w-7 h-7 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm sm:text-base font-bold text-slate-900">
+                                    Job Application Tracker (Notion &amp; Excel) <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded ml-2">FREE BONUS (Worth ₦10,000)</span>
+                                </h3>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                                    Stay organized, monitor outreach response rates, track recruiter follow-up dates, and never drop a lead.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Bonus 3 -->
+                        <div class="bg-white p-4 sm:p-5 rounded-xl border border-amber-200/80 shadow-sm flex items-start gap-4">
+                            <div class="w-7 h-7 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm sm:text-base font-bold text-slate-900">
+                                    Curated Directory of 50+ Verified Global Job Links <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded ml-2">FREE BONUS (Worth ₦20,000)</span>
+                                </h3>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                                    Direct access to vetted platforms and hiring communities that actively recruit African developers, designers, VAs, writers, and ops talent.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION (SOCIAL PROOF) -->
+    <section id="proof" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="text-xs font-bold uppercase tracking-widest text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Real Results, Not Theory</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                    What African Jobseekers Are Saying
+                </h2>
+                <p class="text-slate-600 text-sm mt-2">
+                    The exact strategies used by professionals in Lagos, Nairobi, Accra, and Kigali to unlock international contracts.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Testimonial 1 -->
+                <div class="bg-sand p-6 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 mb-3">
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                        </div>
+                        <p class="text-slate-700 text-xs sm:text-sm italic leading-relaxed">
+                            "I had applied to 90+ roles with zero calls. Christiana's ATS restructuring tip in Day 4 changed everything. Within 2 weeks, I landed a $2,200/mo role as a Customer Success Specialist for an Austin-based software company!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 mt-6 pt-4 border-t border-slate-200/60">
+                        <img class="w-10 h-10 rounded-full object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Emeka O.">
+                        <div>
+                            <div class="text-xs font-bold text-slate-900">Emeka O.</div>
+                            <div class="text-[11px] text-slate-500">Lagos, Nigeria • Customer Success</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-sand p-6 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 mb-3">
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                        </div>
+                        <p class="text-slate-700 text-xs sm:text-sm italic leading-relaxed">
+                            "The verified links alone paid for this guide 100x over. Most sites you find on Google are full of ghost jobs. Christiana's vetted repository got me direct contact with the hiring lead in Berlin."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 mt-6 pt-4 border-t border-slate-200/60">
+                        <img class="w-10 h-10 rounded-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Tunde A.">
+                        <div>
+                            <div class="text-xs font-bold text-slate-900">Tunde A.</div>
+                            <div class="text-[11px] text-slate-500">Abuja, Nigeria • Product Designer</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-sand p-6 rounded-2xl border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 mb-3">
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                        </div>
+                        <p class="text-slate-700 text-xs sm:text-sm italic leading-relaxed">
+                            "The Interview Workbook gave me the exact confidence I needed. I always froze when asked about salary expectations. Her negotiation script got me an extra $400/month on my offer."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 mt-6 pt-4 border-t border-slate-200/60">
+                        <img class="w-10 h-10 rounded-full object-cover" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" alt="Blessing K.">
+                        <div>
+                            <div class="text-xs font-bold text-slate-900">Blessing K.</div>
+                            <div class="text-[11px] text-slate-500">Nairobi, Kenya • Executive VA</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING & CHECKOUT SECTION (AUTHENTIC CARD MATCHING SCREENSHOT) -->
+    <section id="pricing" class="py-20 bg-forest-900 text-white relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            
+            <div class="bg-white text-slate-900 rounded-3xl p-8 sm:p-12 shadow-2xl border border-amber-300/40 relative glow-effect">
+                
+                <div class="text-center max-w-lg mx-auto pb-8 border-b border-slate-100">
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800 uppercase tracking-wider mb-2">
+                        SPECIAL DISCOUNT WINDOW
+                    </span>
+                    <h2 class="font-display text-3xl sm:text-4xl font-black text-slate-900">
+                        Start Your Remote Journey Today
+                    </h2>
+                    <p class="text-slate-600 text-sm mt-2">
+                        Get the complete 30-Day Guide, Verified Link Directory, and all 3 bonus toolkits instantly.
+                    </p>
+                </div>
+
+                <div class="py-6 border-b border-slate-100">
+                    <div class="flex justify-between items-center text-sm text-slate-500 py-1.5">
+                        <span>30-Day Remote Career Guide (PDF)</span>
+                        <span class="line-through">₦20,000</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm text-slate-500 py-1.5">
+                        <span>STAR Interview Preparation Workbook</span>
+                        <span class="line-through">₦15,000</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm text-slate-500 py-1.5">
+                        <span>Notion/Excel Application Tracker</span>
+                        <span class="line-through">₦10,000</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm text-slate-500 py-1.5">
+                        <span>50+ Verified Global Job Links Directory</span>
+                        <span class="line-through">₦20,000</span>
+                    </div>
+
+                    <div class="flex justify-between items-center text-sm font-semibold text-slate-700 pt-3 border-t border-slate-100 mt-2">
+                        <span>Total Real Value:</span>
+                        <span class="text-slate-400 line-through">₦65,000</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm font-semibold text-slate-700">
+                        <span>Regular Price:</span>
+                        <span class="text-slate-400 line-through">₦19,999</span>
+                    </div>
+                </div>
+
+                <!-- Price Display -->
+                <div class="pt-6 text-center space-y-4">
+                    <div class="flex items-center justify-center gap-3">
+                        <span class="text-sm font-extrabold tracking-wider uppercase text-slate-600">TODAY'S SPECIAL PRICE:</span>
+                        <span class="font-display text-4xl sm:text-5xl font-black text-slate-950">₦9,999</span>
+                    </div>
+                    <p class="text-xs text-amber-700 font-bold">
+                        (Equivalent to ~$6.50 USD — One-time payment, lifetime access)
+                    </p>
+
+                    <!-- Interactive Checkout Redirection Button -->
+                    <div class="pt-2">
+                        <button id="checkoutBtn" class="w-full sm:w-auto min-w-[320px] bg-amber-500 hover:bg-amber-600 active:scale-95 text-slate-950 font-black text-lg py-4 px-8 rounded-xl shadow-xl hover:shadow-2xl transition-all inline-flex items-center justify-center gap-2">
+                            <span>GET INSTANT ACCESS NOW</span>
+                            <i data-lucide="lock" class="w-5 h-5"></i>
+                        </button>
+                    </div>
+
+                    <!-- Payment Details & Trust -->
+                    <div class="pt-4 flex flex-wrap items-center justify-center gap-4 text-xs text-slate-500 font-medium">
+                        <span class="flex items-center gap-1.5">
+                            <i data-lucide="shield" class="w-4 h-4 text-emerald-600"></i> 256-Bit SSL Encrypted
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <i data-lucide="zap" class="w-4 h-4 text-amber-500"></i> Instant PDF &amp; Notion Delivery
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <i data-lucide="smartphone" class="w-4 h-4 text-slate-600"></i> Card, Transfer &amp; USSD Accepted
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ SECTION (ACCORDION INTERACTION) -->
+    <section id="faq" class="py-20 bg-sand">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-amber-700 bg-amber-100/60 px-3 py-1 rounded-full border border-amber-200">Got Questions?</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                    Frequently Asked Questions
+                </h2>
+            </div>
+
+            <div class="space-y-4" id="faqAccordion">
+                
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50 transition-colors">
+                        <span>Is this suitable for beginners with zero remote experience?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 border-t border-slate-100 pt-3 leading-relaxed">
+                        Yes! Whether you are transitioning to remote work for the first time or looking to upgrade your current local role to international pay, the guide walks you step-by-step from foundational resume building to live negotiation.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50 transition-colors">
+                        <span>How do I receive access after payment?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 border-t border-slate-100 pt-3 leading-relaxed">
+                        Immediately upon completing payment, you will be redirected to your private download dashboard and also receive an instant confirmation email with direct download links to the PDF guide and Notion templates.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50 transition-colors">
+                        <span>Is this specific to tech and software engineering only?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 border-t border-slate-100 pt-3 leading-relaxed">
+                        No. The strategies apply to virtual assistants, customer support, sales development, digital marketing, graphic design, content writing, data entry, project management, and software engineers.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:bg-slate-50 transition-colors">
+                        <span>Will this work specifically for Nigerians and other African nationals?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 border-t border-slate-100 pt-3 leading-relaxed">
+                        Yes, that is the exact purpose Christiana built this guide. It addresses payment processing (how to receive USD via Geegpay/Grey/Wise), handling US/UK timezone differences, and bypassing geo-blocked filters.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CHECKOUT MODAL SIMULATION (FOR REAL FUNCTIONALITY & TESTING) -->
+    <div id="checkoutModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 relative animate-in fade-in zoom-in duration-200">
+            <button id="closeModal" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            <div class="text-center mb-6">
+                <div class="w-12 h-12 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto mb-3">
+                    <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-display font-bold text-xl text-slate-900">Instant Order Checkout</h3>
+                <p class="text-xs text-slate-500">30-Day Guide to Secure a Remote Job + All Bonuses</p>
+            </div>
+
+            <form id="orderForm" class="space-y-4" onsubmit="handleOrderSubmit(event)">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">Your Full Name</label>
+                    <input required type="text" placeholder="e.g. Samuel Adeleke" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">Your Best Email (For PDF Delivery)</label>
+                    <input required type="email" placeholder="samuel@gmail.com" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">WhatsApp Phone Number</label>
+                    <input required type="tel" placeholder="+234 801 234 5678" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 outline-none">
+                </div>
+
+                <div class="pt-2">
+                    <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-slate-950 font-extrabold py-3.5 rounded-lg text-sm shadow-md transition-all flex items-center justify-center gap-2">
+                        <span>Pay ₦9,999 &amp; Download Instantly</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </button>
+                </div>
+                <p class="text-[10px] text-center text-slate-400">
+                    🔒 Protected by Paystack/Flutterwave standard encryption.
+                </p>
+            </form>
+
+            <div id="successState" class="hidden text-center py-6 space-y-4">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
+                    <i data-lucide="check-circle" class="w-8 h-8"></i>
+                </div>
+                <h4 class="font-bold text-lg text-slate-900">Redirecting to Secure Payment...</h4>
+                <p class="text-xs text-slate-500">Preparing your personalized bundle download link and Notion access token.</p>
+                <div class="w-full bg-slate-100 rounded-full h-2 overflow-hidden">
+                    <div class="bg-amber-500 h-full w-2/3 animate-pulse"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER (MATCHING SCREENSHOT WITH FOREST GREEN THEME) -->
+    <footer class="bg-forest-900 text-emerald-100/70 text-xs py-12 border-t border-forest-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <div class="font-display font-bold text-base text-amber-400">Remote Career System</div>
+                    <p class="text-slate-400 mt-1">© 2025 Remote Career System by Christiana. All rights reserved. Built for the modern professional.</p>
+                </div>
+                <div class="flex items-center space-x-6 text-slate-300">
+                    <a href="#story" class="hover:text-amber-400 transition-colors">About Christiana</a>
+                    <a href="#curriculum" class="hover:text-amber-400 transition-colors">Guide Curriculum</a>
+                    <a href="#faq" class="hover:text-amber-400 transition-colors">Support &amp; FAQ</a>
+                    <a href="#" class="hover:text-amber-400 transition-colors">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE SCRIPTS -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // 1. Subtle Countdown Timer (4 Hours, 28 Mins rolling timer)
+        let totalSeconds = (4 * 3600) + (28 * 60) + 42;
+        const countdownEl = document.getElementById('countdown');
+
+        setInterval(() => {
+            if (totalSeconds <= 0) totalSeconds = 4 * 3600;
+            totalSeconds--;
+
+            const hrs = Math.floor(totalSeconds / 3600);
+            const mins = Math.floor((totalSeconds % 3600) / 60);
+            const secs = totalSeconds % 60;
+
+            const format = (n) => String(n).padStart(2, '0');
+            if (countdownEl) {
+                countdownEl.textContent = `${format(hrs)}h : ${format(mins)}m : ${format(secs)}s`;
+            }
+        }, 1000);
+
+        // 2. FAQ Accordion Functionality
+        const faqButtons = document.querySelectorAll('.faq-btn');
+        faqButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const content = btn.nextElementSibling;
+                const icon = btn.querySelector('[data-lucide="chevron-down"]');
+                
+                // Toggle current
+                const isHidden = content.classList.contains('hidden');
+                
+                // Close all others
+                document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+                document.querySelectorAll('.faq-btn [data-lucide="chevron-down"]').forEach(i => i.style.transform = 'rotate(0deg)');
+
+                if (isHidden) {
+                    content.classList.remove('hidden');
+                    if (icon) icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+        // 3. Checkout Modal Trigger
+        const checkoutBtn = document.getElementById('checkoutBtn');
+        const checkoutModal = document.getElementById('checkoutModal');
+        const closeModal = document.getElementById('closeModal');
+        const orderForm = document.getElementById('orderForm');
+        const successState = document.getElementById('successState');
+
+        if (checkoutBtn && checkoutModal && closeModal) {
+            checkoutBtn.addEventListener('click', () => {
+                checkoutModal.classList.remove('hidden');
+            });
+
+            closeModal.addEventListener('click', () => {
+                checkoutModal.classList.add('hidden');
+            });
+
+            checkoutModal.addEventListener('click', (e) => {
+                if (e.target === checkoutModal) {
+                    checkoutModal.classList.add('hidden');
+                }
+            });
+        }
+
+        function handleOrderSubmit(e) {
+            e.preventDefault();
+            orderForm.classList.add('hidden');
+            successState.classList.remove('hidden');
+
+            setTimeout(() => {
+                alert('Thank you! You are now being forwarded to complete your payment of ₦9,999. Your 30-day guide and toolkits are queued for instant email download.');
+                checkoutModal.classList.add('hidden');
+                orderForm.classList.remove('hidden');
+                successState.classList.add('hidden');
+            }, 1800);
+        }
+    </script>
+</body>
+</html>

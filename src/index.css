@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Smooth scroll ─────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Gold gradient text ────────────────────────────────── */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B45309 0%, #D97706 50%, #CA8A04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Book / card shadows ───────────────────────────────── */
+.book-shadow {
+  box-shadow:
+    -18px 24px 45px -10px rgba(7, 36, 26, 0.28),
+    0 10px 20px -5px rgba(0, 0, 0, 0.1);
+}
+
+.glow-effect {
+  box-shadow: 0 0 50px -10px rgba(180, 83, 9, 0.25);
+}
