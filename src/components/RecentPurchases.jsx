@@ -48,31 +48,31 @@ export default function RecentPurchases() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const showNotification = () => {
-      const randomPurchase =
-        FAKE_PURCHASES[Math.floor(Math.random() * FAKE_PURCHASES.length)];
-      setCurrentPurchase(randomPurchase);
-      setIsVisible(true);
+    let timeoutId;
+    let hideTimeoutId;
 
-      // Hide after 12 seconds
-      setTimeout(() => {
-        setIsVisible(false);
-      }, 12000);
+    const scheduleNext = (delay) => {
+      timeoutId = setTimeout(() => {
+        const randomPurchase = FAKE_PURCHASES[Math.floor(Math.random() * FAKE_PURCHASES.length)];
+        setCurrentPurchase(randomPurchase);
+        setIsVisible(true);
+
+        // Hide after 5 seconds
+        hideTimeoutId = setTimeout(() => {
+          setIsVisible(false);
+        }, 5000);
+
+        // Schedule next popup (15 seconds wait + 5 seconds display = 20s cycle)
+        scheduleNext(20000);
+      }, delay);
     };
 
-    // Initial delay before first popup
-    const initialTimeout = setTimeout(() => {
-      showNotification();
-    }, 12000);
-
-    // Then show a popup every 15 seconds
-    const interval = setInterval(() => {
-      showNotification();
-    }, 15000);
+    // Initial delay before first popup (e.g., 5 seconds)
+    scheduleNext(5000);
 
     return () => {
-      clearTimeout(initialTimeout);
-      clearInterval(interval);
+      clearTimeout(timeoutId);
+      clearTimeout(hideTimeoutId);
     };
   }, []);
 
