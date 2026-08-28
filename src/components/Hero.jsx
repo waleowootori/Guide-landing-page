@@ -28,7 +28,7 @@ export default function Hero({ onCTAClick }) {
           <div className="lg:col-span-7 space-y-6 text-left">
             {/* Eyebrow badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-50 border border-amber-200/80 text-amber-800 text-xs font-bold uppercase tracking-wider">
-              <Sparkles className="w-3.5 h-3.5 text-amber-600" />
+              <span className="w-3.5 h-3.5 text-amber-600" />
               The Ultimate Remote Career Framework
             </div>
 
