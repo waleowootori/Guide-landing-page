@@ -1,5 +1,5 @@
 import { ShieldCheck, ChevronRight } from "lucide-react";
-import founderImg from "../public/founderimg.jpeg";
+import founderImg from "../public/Founder.jpeg";
 
 /**
  * Section id="story"
