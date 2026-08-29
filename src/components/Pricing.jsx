@@ -1,7 +1,29 @@
-import React from 'react';
-import { Lock, Shield, Zap, Smartphone } from 'lucide-react';
+import React from "react";
+import { Lock, Shield, Zap, Smartphone } from "lucide-react";
 
 export default function Pricing({ onCheckoutClick }) {
+  const SELAR_URL = "https://selar.com/8p774j4z09";
+
+  const handleCheckout = (e) => {
+    e.preventDefault();
+
+    // Fire Meta Pixel InitiateCheckout Event
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "InitiateCheckout", {
+        value: 9999,
+        currency: "NGN",
+      });
+    }
+
+    // Trigger parent callback if passed
+    if (onCheckoutClick) {
+      onCheckoutClick();
+    }
+
+    // Redirect to Selar payment page
+    window.location.href = SELAR_URL;
+  };
+
   return (
     <section id="pricing" className="py-20 bg-forest-900 text-white relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
@@ -14,7 +36,8 @@ export default function Pricing({ onCheckoutClick }) {
               Start Your Remote Journey Today
             </h2>
             <p className="text-slate-600 text-sm mt-2">
-              Get the complete 30-Day Guide, Verified Link Directory, and all 3 bonus toolkits instantly.
+              Get the complete 30-Day Guide, Verified Link Directory, and all 3
+              bonus toolkits instantly.
             </p>
           </div>
 
@@ -49,8 +72,12 @@ export default function Pricing({ onCheckoutClick }) {
           {/* Price Display */}
           <div className="pt-6 text-center space-y-4">
             <div className="flex items-center justify-center gap-3">
-              <span className="text-sm font-extrabold tracking-wider uppercase text-slate-600">TODAY'S SPECIAL PRICE:</span>
-              <span className="font-display text-4xl sm:text-5xl font-black text-slate-950">₦9,999</span>
+              <span className="text-sm font-extrabold tracking-wider uppercase text-slate-600">
+                TODAY'S SPECIAL PRICE:
+              </span>
+              <span className="font-display text-4xl sm:text-5xl font-black text-slate-950">
+                ₦9,999
+              </span>
             </div>
             <p className="text-xs text-amber-700 font-bold">
               (Equivalent to ~$6.50 USD — One-time payment, lifetime access)
@@ -58,7 +85,10 @@ export default function Pricing({ onCheckoutClick }) {
 
             {/* Interactive Checkout Redirection Button */}
             <div className="pt-2 flex flex-col items-center gap-2">
-              <a href="https://selar.com/8p774j4z09" className="w-full sm:w-auto min-w-[320px] bg-amber-500 hover:bg-amber-600 active:scale-95 text-slate-950 font-black text-lg py-4 px-8 rounded-xl shadow-xl hover:shadow-2xl transition-all inline-flex items-center justify-center gap-2">
+              <a
+                href={SELAR_URL}
+                onClick={handleCheckout}
+                className="w-full sm:w-auto min-w-[320px] bg-amber-500 hover:bg-amber-600 active:scale-95 text-slate-950 font-black text-lg py-4 px-8 rounded-xl shadow-xl hover:shadow-2xl transition-all inline-flex items-center justify-center gap-2 cursor-pointer">
                 <span>GET INSTANT ACCESS NOW</span>
                 <Lock className="w-5 h-5" />
               </a>
@@ -70,13 +100,16 @@ export default function Pricing({ onCheckoutClick }) {
             {/* Payment Details & Trust */}
             <div className="pt-4 flex flex-wrap items-center justify-center gap-4 text-xs text-slate-500 font-medium">
               <span className="flex items-center gap-1.5">
-                <Shield className="w-4 h-4 text-emerald-600" /> 256-Bit SSL Encrypted
+                <Shield className="w-4 h-4 text-emerald-600" /> 256-Bit SSL
+                Encrypted
               </span>
               <span className="flex items-center gap-1.5">
-                <Zap className="w-4 h-4 text-amber-500" /> Instant PDF &amp; Spreadsheet Delivery
+                <Zap className="w-4 h-4 text-amber-500" /> Instant PDF &amp;
+                Spreadsheet Delivery
               </span>
               <span className="flex items-center gap-1.5">
-                <Smartphone className="w-4 h-4 text-slate-600" /> Card, Transfer &amp; USSD Accepted
+                <Smartphone className="w-4 h-4 text-slate-600" /> Card, Transfer
+                &amp; USSD Accepted
               </span>
             </div>
           </div>
